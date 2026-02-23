@@ -61,16 +61,3 @@ Example output (Index dataset, after preprocessing):
 | F1 Score | (macro)  |
 
 Confusion matrix shows per-class predictions (rows = true, columns = predicted); axis labels are the index names (e.g. SP500, DAX40).
-
-## Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "KNN classification model"
-git branch -M main
-git remote add origin https://github.com/<your-username>/knn-project.git
-git push -u origin main
-```
-
-Replace `<your-username>` with your GitHub username.
